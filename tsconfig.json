@@ -1,0 +1,16 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "declaration": false,
+    "removeComments": false,
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "outDir": "public",
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "noUnusedLocals": false,
+    "typeRoots": ["/@types"]
+  }
+}
